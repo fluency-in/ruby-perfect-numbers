@@ -1,4 +1,4 @@
-# Perfect Numbers
+# Ruby: Perfect Numbers
 
 The Greek mathematician Nicomachus devised a classification scheme for natural numbers.
 
@@ -23,6 +23,20 @@ including the number itself.
 - Prime numbers 7, 13, etc are Deficient by the Nicomachus
   classification.
 
+The tests use the Minitest testing framework. To install it run the command:
+
+    gem install minitest
+
+Run the tests with the `ruby` command:
+
+    ruby perfect_numbers_test.rb
+
+## Resources
+
+If you have never used Minitest, check out [Intro to TDD][tdd] tutorial from Jumpstart Lab.
+
+[tdd]: http://tutorials.jumpstartlab.com/topics/testing/intro-to-tdd.html
+
 ## Source
 
 Taken from Chapter 2 of Functional Thinking by Neal Ford. [http://shop.oreilly.com/product/0636920029687.do](http://shop.oreilly.com/product/0636920029687.do)
@@ -31,3 +45,6 @@ This exercise is from the [Ruby][ruby] track on [Exercism][exercism]
 
 [exercism]: http://exercism.io
 [ruby]: http://exercism.io/languages/ruby
+
+
+
